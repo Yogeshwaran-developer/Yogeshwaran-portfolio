@@ -81,9 +81,9 @@
         <h2>Contact<span class="name3">Me</span></h2>
        <!-- <form action="mailto:receiver@example.com" method="post" enctype="text/plain"> -->
          <div class="contact-me">
-            <input class="Fullname" type="text" placeholder="Fullname"><br><br>
-            <input class="email" type="email" placeholder="email" required><br><br>
-            <input class="no" type="number" placeholder="Phone No"><br><br>
+            <input class="Fullname" type="text" placeholder="Fullname" required><br><br>
+            <input class="email" type="email" id="userEmail" name="userEmail" placeholder="name@example.com" required><br><br>
+            <input class="no" type="tel" placeholder="Phone No" required  minlength="10" maxlength="10" pattern="[0-9]{10}" ><br><br>
             <textarea name="comments" rows="4" cols="50" placeholder="Text message"> </textarea>
         </div>
        <!-- </form> -->
